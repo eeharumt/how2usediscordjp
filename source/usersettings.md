@@ -37,6 +37,9 @@ Discord と連携したいアカウントの設定ができる。アイコンを
     Voice Activity (あるマイク音量以上になったときにマイクON)モードか、Push to Talk(特定のボタンをおした時マイクON)モードの選択  
   - INPUT SENSITIVITY <br>
     Voice Activityモードの時の音量検出限界値の設定  
+
+  ![Voice basic](../img/voice-basic.png)
+
 * **Advanced**  
   - VOICE PROCESSING
     + Echo Cancellation <br>
@@ -49,7 +52,7 @@ Discord と連携したいアカウントの設定ができる。アイコンを
     誰かがDiscord で話している時に他のアプリケーションの音量を下げる機能。0％のとき無効。  
     ![Voice]()  
 
-![Voice](../img/voice.png)  
+  ![Voice basic](../img/voice-advanced.png)
 
 ## Notifications ##
 通知に関する設定
