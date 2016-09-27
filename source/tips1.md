@@ -3,8 +3,8 @@
 Discord の権限はServer SettingsのRolesとEdit ChannelのPermissionの2つから構成される。
 各役割は、  
 
-* Server Settings -> Roles : サーバ内での権限  
-* Channel Permission : 特定のチャンネル内での権限  
+*  Server Settings -> Roles : サーバ内での権限  
+*  Channel Permission : 特定のチャンネル内での権限  
 
 が設定できる。
 ## Roles の設定 ##
