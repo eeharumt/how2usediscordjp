@@ -1,38 +1,33 @@
-.. How2useDiscord documentation master file, created by
-   sphinx-quickstart on Thu Dec  3 21:28:57 2015.
+.. discordjp documentation master file, created by
+   sphinx-quickstart on Fri Sep 30 00:16:48 2016.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 コミュニケーションツール「Discord」非公式日本語ドキュメント
-==========================================
+===================================================================
 コミュニケーションツールの「Discord」の使い方や各機能についてまとめたサイトです。
-意見・質問等あればTwitterの@eeharumtまでお願いします。
+意見・質問等あればTwitterの `@eeharumt <https://twitter.com/eeharumt>`_ までお願いします。
+
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Discordについて
+  :maxdepth: 1
+  :caption: Discordについて
 
-   whatsdiscord
-
-.. toctree::
-   :maxdepth: 1
-   :caption: 基本操作
-
-   basicoperation
+  whatsdiscord.md
 
 .. toctree::
-   :maxdepth: 1
-   :caption: 各種設定
+  :maxdepth: 1
+  :caption: 基本操作
 
-   usersettings
-   serversettings
+  basicoperation.md
+  serversettings.md
+  usersettings.md
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Tips/役立つ情報
+  :maxdepth: 1
+  :caption: Tips/役立つ情報
 
-   tips1
-
+  tips1.md
 
 Indices and tables
 ==================

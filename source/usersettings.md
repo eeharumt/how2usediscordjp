@@ -18,41 +18,46 @@ Discord と連携したいアカウントの設定ができる。アイコンを
 
 ## Text&Image
 
-*   **DISPLAY IMAGES, VIDEOS, AND LOLCATS**
-    -   When posted as link to chat.<br>
+- **DISPLAY IMAGES, VIDEOS, AND LOLCATS**
+
+  - When posted as link to chat.<br>
     画像、動画リンクが張られたときにチャット内で表示するかどうか
-    -   When uploade directly to Discord.<br>
+  - When uploade directly to Discord.<br>
     Discord に直接アップロードした5MB以内の画像、動画を表示するかどうか
-*   **LINK PREVIEW**<br>
+
+- **LINK PREVIEW**<br>
   チャット内に張られたリンクのリンク先をプレビューするかどうか
-*   **TEXT-TO-SPEECH**<br>
+- **TEXT-TO-SPEECH**<br>
   /tts コマンドが使用されたチャットを読み上げるかどうか
 
 ![Text&Image 設定画面](../img/textandimages.png)
 
 ## Voice
 
-*   **Basic**
-    - INPUT DEVICE / OUTPUT DEVICE<br>
+- **Basic**
+
+  - INPUT DEVICE / OUTPUT DEVICE<br>
     入力デバイス及び出力デバイスを選択および音量を調整することができる
-    - INPUT MODE<br>
+  - INPUT MODE<br>
     Voice Activity (あるマイク音量以上になったときにマイクON)モードか、Push to Talk(特定のボタンをおした時マイクON)モードの選択
-    - INPUT SENSITIVITY<br>
+  - INPUT SENSITIVITY<br>
     Voice Activityモードの時の音量検出限界値の設定
 
   ![Voice basic](../img/voice-basic.png)
 
-*   **Advanced**
-    -   VOICE PROCESSING
+- **Advanced**
 
-    -   Echo Cancellation<br>
-      エコー除去
-    -   Noise Suppression<br>
-      ノイズ除去
-    -   Automatic Gain Control<br>
-      マイク音量の自動調整
+  - VOICE PROCESSING
 
-    -   ATTENUATION<br>
+  - Echo Cancellation<br>
+    エコー除去
+
+  - Noise Suppression<br>
+    ノイズ除去
+  - Automatic Gain Control<br>
+    マイク音量の自動調整
+
+  - ATTENUATION<br>
     誰かがDiscord で話している時に他のアプリケーションの音量を下げる機能。0％のとき無効。<br>
 
   ![Voice basic](../img/voice-advanced.png)
