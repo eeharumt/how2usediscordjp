@@ -1,5 +1,6 @@
 # Discordとは
 **Discord** はHammer & Chiselが開発、運営している主にゲーマを対象にした無料のボイスチャット及びテキストチャットサービス。
+Skypeのよりも軽量であることや、Teamspeakのようにサーバーをレンタルしたり、自前で構築する必要がない利点を持つ。
 
 ## 動作環境(System Requirement)
 

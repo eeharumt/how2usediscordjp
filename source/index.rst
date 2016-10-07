@@ -20,6 +20,8 @@
   :caption: 基本操作
 
   basicoperation.md
+.. PCとiOS、Android版に分ける
+
   serversettings.md
   usersettings.md
 
