@@ -8,6 +8,8 @@
 コミュニケーションツールの「Discord」の使い方や各機能についてまとめたサイトです。
 意見・質問等あればTwitterの `@eeharumt <https://twitter.com/eeharumt>`_ までお願いします。
 
+.. note::
+   コンテンツが消えていた問題を修正しました。
 
 .. toctree::
   :maxdepth: 1
@@ -16,12 +18,11 @@
   whatsdiscord.md
 
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   :caption: 基本操作
 
   basicoperation.md
-.. PCとiOS、Android版に分ける
-
+  .. dm.md
   serversettings.md
   usersettings.md
 
