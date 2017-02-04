@@ -55,7 +55,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'discordjp'
-copyright = u'2016, eeharumt'
+copyright = u'2017, eeharumt'
 author = u'eeharumt'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -63,7 +63,7 @@ author = u'eeharumt'
 # built documents.
 #
 # The short X.Y version.
-version = u'1.0'
+version = u'1.2'
 # The full version, including alpha/beta/rc tags.
 release = u'1.0'
 
