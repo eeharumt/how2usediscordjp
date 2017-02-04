@@ -4,19 +4,23 @@
 
 _ユーザー設定の開き方_ ![usersettingsの開き方](../img/usersettings.gif)
 
-## Account
+## アカウント(account)
 
 ユーザー名、メールアドレス、ユーザーアイコン及びパスワードの変更ができる。それぞれ変更するには現在使用しているパスワードが必要。
 
-![設定画面](../img/account.png)
+![設定画面](../img/account1.png)
 
-## Connection
+## 接続(Connections)
 
-Discord と連携したいアカウントの設定ができる。アイコンをクリックすると連携するためのWebサイトが開かれる、現在はTwitchのみ連携することが出来る。
+Discord と連携したいサービスの設定ができる。アイコンをクリックすると連携するためのWebサイトが開かれる。
 
-![Connection](../img/connections.png)
+![Connection](../img/connections1.png)
+## フレンド(Friends)
+フレンド追加の許可の設定ができる。
 
-## Text&Image
+![Friends](../img/frends.png)
+
+## テキスト・画像(Text&Image)
 
 - **DISPLAY IMAGES, VIDEOS, AND LOLCATS**
 
@@ -32,7 +36,7 @@ Discord と連携したいアカウントの設定ができる。アイコンを
 
 ![Text&Image 設定画面](../img/textandimages.png)
 
-## Voice
+## Voice(音声)
 
 - **Basic**
 
@@ -62,7 +66,7 @@ Discord と連携したいアカウントの設定ができる。アイコンを
 
   ![Voice basic](../img/voice-advanced.png)
 
-## Notifications
+## 通知(Notifications)
 
 通知に関する設定
 
@@ -95,7 +99,7 @@ Discord と連携したいアカウントの設定ができる。アイコンを
 
 ![Notifications](../img/notifications.png)
 
-## Keybinds
+## キー割り当て(Keybinds)
 
 Add a Keybindのボタンを押すことによってキーコンフィグの設定を行うことができる。<br>
 設定できる機能は以下の通り。
@@ -111,16 +115,7 @@ Add a Keybindのボタンを押すことによってキーコンフィグの設�
 
 ![Keybinds 設定画面](../img/keybinds.png)
 
-## Privacy
-
-- **GAME ACTIVITY**
-
-  - Display currently running game as a status message.<br>
-    実行しているゲームをステータスとして表示するかどうか
-
-![Privacy 設定画面](../img/privacy.png)
-
-## Appearance
+## テーマ(Appearance)
 
 - **THEME**
 
@@ -134,7 +129,18 @@ Add a Keybindのボタンを押すことによってキーコンフィグの設�
 
 ![Appearance 設定画面](../img/appearance.png)
 
-## Locale
+## ゲーム(Games)
+
+- **GAME ACTIVITY**
+
+- Display currently running game as a status message.<br>
+実行しているゲームをステータスとして表示するかどうか
+
+![Privacy 設定画面](../img/privacy.png)
+
+## オーバーレイ(Overlay)
+
+## 言語設定(Locale)
 
 - **LANGUAGE**<br>
   言語選択
@@ -151,3 +157,7 @@ Add a Keybindのボタンを押すことによってキーコンフィグの設�
   - スウェーデン語 (Svenska)
 
 ![Locale 設定画面](../img/locale.png)
+
+## 配信モード(Streamer Mode)
+
+## セキュリティ(Security)

@@ -7,6 +7,7 @@
 ===================================================================
 コミュニケーションツールの「Discord」の使い方や各機能についてまとめたサイトです。
 意見・質問等あればTwitterの `@eeharumt <https://twitter.com/eeharumt>`_ までお願いします。
+`最新情報など <http://www.eeharu.net/search/label/update%20info>`_ (個人のブログです)
 
 .. note::
    コンテンツが消えていた問題を修正しました。
@@ -31,6 +32,7 @@
   :caption: Tips/役立つ情報
 
   tips1.md
+  tips2.md
 
 Indices and tables
 ==================
