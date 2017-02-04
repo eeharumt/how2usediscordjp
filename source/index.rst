@@ -32,7 +32,7 @@
   :caption: Tips/役立つ情報
 
   tips1.md
-  tips2.md
+
 
 Indices and tables
 ==================
