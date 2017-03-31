@@ -1,0 +1,341 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>サーバー設定 &mdash; discordjp 1.0 ドキュメント</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="索引"
+              href="genindex.html"/>
+        <link rel="search" title="検索" href="search.html"/>
+    <link rel="top" title="discordjp 1.0 ドキュメント" href="index.html"/>
+        <link rel="next" title="ユーザー設定" href="usersettings.html"/>
+        <link rel="prev" title="基本操作" href="basicoperation.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> discordjp
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Discordについて</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="whatsdiscord.html">Discordとは</a></li>
+</ul>
+<p class="caption"><span class="caption-text">基本操作</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="basicoperation.html">基本操作</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">サーバー設定</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview">概要(Overview)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#instant-invite">招待(Instant Invite)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#integration">連携サービス(Integration)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#members">メンバー(Members)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#roles">役職(Roles)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bans">バンしたユーザー(Bans)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#emoji">絵文字(Emoji)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#widget">ウィジェット(Widget)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#webhooks">Webhooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#security">セキュリティ(Security)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="usersettings.html">ユーザー設定</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tips/役立つ情報</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tips1.html">サーバーの管理関するTips</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">discordjp</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>サーバー設定</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/serversettings.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="">
+<span id="id1"></span><h1>サーバー設定<a class="headerlink" href="#" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>サーバーに関する設定</p>
+<p><em>サーバー設定の開き方</em> <img alt="serversettingの開き方" src="_images/serversetting.gif" /></p>
+<div class="section" id="overview">
+<span id="overview"></span><h2>概要(Overview)<a class="headerlink" href="#overview" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><strong>SERVER NAME</strong><br>
+サーバー名</li>
+<li><strong>SERVER REGION</strong><br>
+サーバー設置場所</li>
+<li><strong>AFK CHANNEL</strong><br>
+AFK:Away From Keyboard(離席)チャンネルをどのチャンネルに設定するか</li>
+<li><strong>AFK TIMEOUT</strong><br>
+何分以上アイドル時間が続けばAFKチャンネルに移動するか</li>
+</ul>
+<p><img alt="Overview" src="_images/overview.png" /></p>
+</div>
+<div class="section" id="instant-invite">
+<span id="instant-invite"></span><h2>招待(Instant Invite)<a class="headerlink" href="#instant-invite" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>招待コードの管理画面。どの招待コードがどのチャンネルで誰が作り、何回使われたかあとどれぐらいその招待コードが有効かが表示される。表示されている招待コードにマウスオーバーすると表示される&#8221;Revoke&#8221;を押すことでその招待コードを削除し無効にできる。</p>
+<p><img alt="Overview" src="_images/instantinvite.png" /></p>
+</div>
+<div class="section" id="integration">
+<span id="integration"></span><h2>連携サービス(Integration)<a class="headerlink" href="#integration" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>？</p>
+<p><img alt="Overview" src="_images/twitchintegration.png" /></p>
+</div>
+<div class="section" id="members">
+<span id="members"></span><h2>メンバー(Members)<a class="headerlink" href="#members" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>サーバーに参加したメンバーの一覧。Rolesで設定した役職を割り当てることができる。</p>
+<p><img alt="Overview" src="_images/members.png" /></p>
+</div>
+<div class="section" id="roles">
+<span id="roles"></span><h2>役職(Roles)<a class="headerlink" href="#roles" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>役職(権限を持ったグループ)の設定。ROLESの横にある＋ボタンを押すことで新しい役職を作成できる。</p>
+<ul class="simple">
+<li><strong>ROLE NAME</strong><br>
+役職名</li>
+<li><strong>ROLE COLOR</strong><br>
+役職の色(表示されるユーザー名の色)</li>
+<li><strong>DISPLAY SETTINGS</strong><br>
+役職を表示するかどうか</li>
+<li><strong>GENERAL PERMISSIONS</strong><br>
+総合的な権限設定</li>
+<li><strong>TEXT PERMISSIONS</strong><br>
+テキストチャンネルの権限設定</li>
+<li><strong>VOICE PERMISSIONS</strong><br>
+ボイスチャンネルの権限設定</li>
+</ul>
+<p><img alt="Overview" src="_images/roles.png" /></p>
+</div>
+<div class="section" id="bans">
+<span id="bans"></span><h2>バンしたユーザー(Bans)<a class="headerlink" href="#bans" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>Ban(追放)したユーザーのリスト。このリストから消さない限りそのユーザーはサーバーに参加することができない。 また、BanはユーザーアカウントとIPアドレスをもとに行われる。</p>
+<p><img alt="Overview" src="_images/bans.png" /></p>
+</div>
+<div class="section" id="emoji">
+<span id="emoji"></span><h2>絵文字(Emoji)<a class="headerlink" href="#emoji" title="このヘッドラインへのパーマリンク">¶</a></h2>
+</div>
+<div class="section" id="widget">
+<span id="widget"></span><h2>ウィジェット(Widget)<a class="headerlink" href="#widget" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>ウェブサイトに埋め込めるウィジェットを生成できる。</p>
+<p><img alt="Overview" src="_images/widget.png" /></p>
+</div>
+<div class="section" id="webhooks">
+<span id="webhooks"></span><h2>Webhooks<a class="headerlink" href="#webhooks" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>Webhookの設定</p>
+</div>
+<div class="section" id="security">
+<span id="security"></span><h2>セキュリティ(Security)<a class="headerlink" href="#security" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>二段階認証システムの設定</p>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="usersettings.html" class="btn btn-neutral float-right" title="ユーザー設定" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="basicoperation.html" class="btn btn-neutral" title="基本操作" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, eeharumt.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+  
+ 
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-71298278-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+</html>
