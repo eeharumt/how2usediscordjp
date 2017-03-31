@@ -4,6 +4,9 @@ build:
     - jkawamoto/sphinx:
         basedir: ./
         packages: sphinx_rtd_theme
+    - script:
+      name: add CNAME
+      code: echo "discordjp.eeharu.net" > ./build/CNAME
 deploy:
   steps:
     - jkawamoto/ghp-import:
