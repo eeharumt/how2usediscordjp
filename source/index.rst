@@ -8,7 +8,7 @@
 コミュニケーションツールの「Discord」の使い方や各機能についてまとめたサイトです。
 意見・質問等あればTwitterの `@eeharumt <https://twitter.com/eeharumt>`_ までお願いします。
 `最新情報など <http://www.eeharu.net/search/label/update%20info>`_ (個人のブログです)
-
+discordの雑談や質問を受け付ける非公式日本語discordサーバー：`https://discord.gg/k7DVXRa <https://discord.gg/k7DVXRa>`_
 
 .. toctree::
   :maxdepth: 1
